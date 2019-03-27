@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculadora Android</string>
+    <string name="title">Calculadora</string>
+    <string name="sumButt">Somar</string>
+    <string name="subButt">Subtrair</string>
+    <string name="multButt">Multiplicar</string>
+    <string name="divButt">Dividir</string>
+    <string name="clearAll">Limpar</string>
+</resources>

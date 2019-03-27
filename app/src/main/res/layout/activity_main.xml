@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView
+        android:text="@string/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sumButt"
+        android:onClick="soma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sumButt"/>
+    <Button
+        android:id="@+id/subButt"
+        android:onClick="subtrai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subButt"/>
+    <Button
+        android:id="@+id/multButt"
+        android:onClick="multiplica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multButt"/>
+    <Button
+        android:id="@+id/divButt"
+        android:onClick="divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/divButt"/>
+    <Button
+        android:layout_gravity="end"
+        android:id="@+id/clearButt"
+        android:text="@string/clearAll"
+        android:onClick="clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+</LinearLayout>
